@@ -15,6 +15,10 @@
 		0291966F26A897BD00C06B3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291964426A897BB00C06B3E /* ContentView.swift */; };
 		0291967026A897BD00C06B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0291964526A897BD00C06B3E /* Assets.xcassets */; };
 		0291967126A897BD00C06B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0291964526A897BD00C06B3E /* Assets.xcassets */; };
+		0291968126A8994100C06B3E /* TimeComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291968026A8994100C06B3E /* TimeComponentView.swift */; };
+		0291968226A8994100C06B3E /* TimeComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291968026A8994100C06B3E /* TimeComponentView.swift */; };
+		0291968426A89A9C00C06B3E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291968326A89A9C00C06B3E /* TimerView.swift */; };
+		0291968526A89A9C00C06B3E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291968326A89A9C00C06B3E /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		0291966526A897BD00C06B3E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0291966926A897BD00C06B3E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		0291966B26A897BD00C06B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0291968026A8994100C06B3E /* TimeComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeComponentView.swift; sourceTree = "<group>"; };
+		0291968326A89A9C00C06B3E /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 			children = (
 				0291964326A897BB00C06B3E /* Countdown_TimerApp.swift */,
 				0291964426A897BB00C06B3E /* ContentView.swift */,
+				0291968326A89A9C00C06B3E /* TimerView.swift */,
+				0291968026A8994100C06B3E /* TimeComponentView.swift */,
 				0291964526A897BD00C06B3E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,6 +317,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0291966E26A897BD00C06B3E /* ContentView.swift in Sources */,
+				0291968126A8994100C06B3E /* TimeComponentView.swift in Sources */,
+				0291968426A89A9C00C06B3E /* TimerView.swift in Sources */,
 				0291966C26A897BD00C06B3E /* Countdown_TimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +328,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0291966F26A897BD00C06B3E /* ContentView.swift in Sources */,
+				0291968226A8994100C06B3E /* TimeComponentView.swift in Sources */,
+				0291968526A89A9C00C06B3E /* TimerView.swift in Sources */,
 				0291966D26A897BD00C06B3E /* Countdown_TimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
